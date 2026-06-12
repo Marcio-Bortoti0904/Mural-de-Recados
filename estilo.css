@@ -3,7 +3,13 @@ input::placeholder {
 }
 
 #Elemento.mural {
-    padding-top: 6px;
+    padding: 10px;
+    color: rgb(236, 230, 230);
+}
+.mural {
+    margin: 3px;
+    border-radius: 4px;
+    background-color: blue;
 }
 button {
     background-color: black;
