@@ -5,15 +5,18 @@
             <link rel="stylesheet" href="estilo.css">  
         </head>
         <body>
-            <h1>Mural de Recados</h1>
-            <p>Este mural tem como objetivo a interação do usuário com  página.</p>
-            <p>Digite seu nome e seu recado nos campos abaixo.</p>
+            <main>
+                <h1>Mural de Recados</h1>
+                <p>Este mural tem como objetivo a interação do usuário com  página.</p>
+                <p>Digite seu nome e seu recado nos campos abaixo.</p>
             <div class="Campo_de_preenchimento">
-            <input id="Nome_do_autor" type="text" placeholder="Nome do Autor">
-            <input id="o_recado" type="text" placeholder="Recado">
-            <button onclick="adicionarRecado()">Publicar Recado</button>
+                <input id="Nome_do_autor" type="text" placeholder="Nome do Autor">
+                <input id="o_recado" type="text" placeholder="Recado">
+                <button onclick="adicionarRecado()">Publicar Recado</button>
+                <button onclick="limpar_Resultado()">Limpar Seleção</button>
             </div>
             <div id="Elemento" class="mural"></div>
+        </main>
             <script src="arquivo.js"></script>
         </body>
     </html>
